@@ -1,0 +1,38 @@
+{
+    "ankit@1234": {
+        "name": "Ankita",
+        "password": "1234"
+    },
+    "ajit@1234": {
+        "name": "ajit",
+        "password": "1234"
+    },
+    "ajit@12345 ": {
+        "name": "ajit",
+        "password": "1234"
+    },
+    "mantu@1234": {
+        "name": "mantu",
+        "password": "1234"
+    },
+    "ankit_kumar@1234": {
+        "name": "ankit kumar",
+        "password": "ankit1234"
+    },
+    "ankit_kumar@12341": {
+        "name": "nnnn",
+        "password": "ankit1234"
+    },
+    "sanket@1234": {
+        "name": "sanket",
+        "password": "sanket"
+    },
+    "ss@1234": {
+        "name": "sss",
+        "password": "1234ss"
+    },
+    "aa@1234": {
+        "name": "aaa",
+        "password": "aa1234"
+    }
+}

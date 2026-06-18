@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='form.css')}}">
+  
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="apply">
+            <!-- <form action="/register" method="POST"> -->
+            <form  action="/peforme_form"method=post>
+                <h3 id="h2">I Will healp immedaitely </h3>
+                <span><h4>Contact Your Form</h4></span>
+            
+                <div class="form-container">
+            
+                    <div class="form-conrol">
+                        <label>First Name</label>
+                        <input id="a" name="fname"required>
+                    </div>
+            
+                    <div class="form-conrol">
+                        <label>Last_Name</label>
+                        <input id="b" name="lname"required>
+                    </div>
+                    <div class="form-conrol">
+                        <label>Email</label>
+                        <input id="c" name="email" required>
+                    </div>
+            
+                    <div class="form-conrol">
+                        <label>Cources_Name</label>
+                        <input id="c" name="cname" required>
+                    </div>
+            
+                    <!-- <div class="form-conrol">
+                        Form:
+                        <input type="text" name="E">
+                    </div> -->
+            
+                    <!-- <div class="form-conrol">
+                        Rool_no
+                        <input type="text" name="F">
+                    </div> -->
+            
+                    <!-- <div class="form-conrol">
+                        <label>Class_Coordinator_Name</label>
+                        <input type="text" name="G">
+                    </div> -->
+            
+                    <div class="form-conrol">
+                        <label>City</label>
+                        <input name="city"required>
+                    </div>
+                    <div class="form-conrol">
+                        <label>Nearest Bloct</label>
+                        <input id="block" name="D">
+                    </div>
+
+                    <div class="form-conrol">
+                        <label>Police Station Name</label>
+                        <input id="c" name="pstation"register>
+                    </div>
+            
+                    <div class="form-conrol">
+                        <label>Zip code</label>
+                        <input type="number" name="zpin" required>
+                    </div>
+                    
+                    <div class="form-conrol">
+                        date
+                        <input type="date" name="date">
+                    </div>
+                    
+                    <div class="form-conrol">
+                        Contact-No
+                        <input type="tel" name="cnumber"required>
+                    </div>
+            
+                    <div class="form-conrol">
+                        Time
+                        <input type="time" name="time">
+                    </div>
+            
+                    <div class="form-conrol">
+                        Resion
+                        <input type="text" name="reasion"required>
+                    </div>
+            
+                </div>
+            
+                <div class="botton-container">
+                    <button id="app" type="submit">submit</button>
+                </div>
+            
+            </form>
+            
+        </div>
+    </div>
+</body>
+
+</html>

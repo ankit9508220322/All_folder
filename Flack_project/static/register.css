@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(225, 181, 181);
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+form {
+    width: 320px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #6da5bd;
+    background: rgb(214, 235, 139);
+    border-radius: 8px;
+}
+
+/* 🔥 label bilkul paas */
+label {
+    /* display: block; */
+    margin: 4;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+/* 🔥 input spacing control */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+/* button */
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+input[type="submit"]:hover {
+    background-color: darkgreen;
+}
+
+/* bottom text */
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+p a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}

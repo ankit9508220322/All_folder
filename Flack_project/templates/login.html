@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='logine.css') }}">
+</head>
+
+<body style='background-color:yelow'>
+<!-- <h3>Login Page</h3> -->
+
+<form action="perfome_logine"method='post'>
+    <h3>Login Page</h3>
+    {% if message %}
+   <p style="color: blue;"> {{message}}</p>
+    {%endif%}
+<label>Email</label><br>
+<input type="email" placeholder="Enter email" name = "email"required><br>
+
+<label>Password</label><br>
+<input type="password" placeholder="Enter Password"name="password"required><br>
+
+<input type="submit" value="Login">
+
+
+<p id="register">Not a member? <a href="/register">Register now</a></p>
+</form>
+</body>
+</html>

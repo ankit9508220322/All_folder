@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <form action="/api/teamevteame" method="get">
+        
+        <label>select teame 1</label>
+        <select name="teame1">
+            {% for  item in data %}
+            <option>{{item}}</option>
+            {% endfor%}
+            <option>csk</option>
+        </select><br><br>
+
+        <label>select teame 2</label>
+        <select name="teame2">
+            {% for  item in data %}
+            <option>{{item}}</option>
+            {% endfor%}
+            <option>csk</option>
+        </select><br><br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

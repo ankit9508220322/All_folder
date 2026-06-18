@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <title>Register Page</title> -->
+<link rel="stylesheet" href="{{ url_for('static', filename='register.css') }}">
+</head>
+<!-- <title>Register Page</title> -->
+
+<body>
+
+
+<!--peform template inport the post method -->
+<form action = "/perform_registation"method="post">
+<p>Register Page</p>
+
+<label>Name</label><br>
+<input type="text" placeholder="Enter name" name="user_name"required><br>
+
+<label>Email</label><br>
+<input type="email" placeholder="Enter email" name="user_email"required><br>
+
+<label>Password</label><br>
+<input type="password" placeholder="Enter Password" name="user_password"required><br>
+
+<label>Confirm Password</label><br>
+<input type="password" placeholder="Confirm Password" name="confirm_password"required><br>
+
+<input type="submit" value="Register">
+
+{% if message %}
+<p style="color: rgb(228, 25, 25);"> {{message}}</p>
+{%endif%}
+<p>Already a member? <a href="/login">Login now</a></p>
+</form>
+
+<!-- <p>Already a member? <a href="/login">Login now</a></p> -->
+
+</body>
+</html>
+
+
+
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>what do you like to do</p>
+    <ul>
+      <li><a href="/ner">NER</a></li>
+      <li><a href=/portfolio>portfolio</a></li>
+      <li>Abuse decation</li>
+    </ul>
+  </body>
+</html> -->

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-warning-subtle text-white-emphasis">
+
+  <nav class="navbar bg-secondary text-white " data-bs-theme="dark">
+    <div class="container-fluid">
+      <div class="dropdown">
+
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+
+          {% if session.get('email') %}
+          Menu
+          {% else %}
+          Logine-Now
+          {% endif %}
+
+        </a>
+        <ul class="dropdown-menu">
+          {% if session.get('email') %}
+          <!-- LOGIN HO GAYA -->
+          <li><a class="dropdown-item" href="/ner">NER</a></li>
+          <li><a class="dropdown-item" href="/portfolio">portfolio</a></li>
+          <li><a class="dropdown-item" href="/form_contact">contact_you</a></li>
+          {% else %}
+          <!-- LOGIN NAHI -->
+          <li><a class="dropdown-item" href="/login">login</a></li>
+          <li><a class="dropdown-item" href="/register">register</a></li>
+          {% endif %}
+        </ul>
+      </div>
+      <!-- Large button groups (default and split) -->
+      <div class="btn-group">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          >
+          Large button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/ner">NER</a></li>
+          <li><a class="dropdown-item" href="/portfolio">portfolio</a></li>
+          <li><a class="dropdown-item" href="#">Abuse decation</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          >
+          Large button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/ner">NER</a></li>
+          <li><a class="dropdown-item" href="/portfolio">portfolio</a></li>
+          <li><a class="dropdown-item" href="#">Abuse decation</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          >
+          Large button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/ner">NER</a></li>
+          <li><a class="dropdown-item" href="/portfolio">portfolio</a></li>
+          <li><a class="dropdown-item" href="#">Abuse decation</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          >
+          Large button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/ner">NER</a></li>
+          <li><a class="dropdown-item" href="/portfolio">portfolio</a></li>
+          <li><a class="dropdown-item" href="#">Abuse decation</a></li>
+        </ul>
+      </div>
+    </div>
+
+    </div>
+
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
