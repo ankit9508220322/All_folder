@@ -27,7 +27,7 @@ print(np.unique(c))
 # ////////////////////////////////////////////
 c = np.array([1,2,3,4,3,2,1,5,6,7,5,6,8])
 print(np.where(c >5)) #where function show the index method number of array
-d = np.where(c%2 == 0,0,True)
+d = np.where(c % 2 == 0,0,True)
 print('all even number\n',d)
 
 # //////////////////////////////////////
