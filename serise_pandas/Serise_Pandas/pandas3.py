@@ -1,11 +1,11 @@
 import pandas as pd
 
 # ////value _count->movies
-# data = pd.read_csv('Book3.csv')
-# print(data)
-# print(data.city.value_counts())
-# c = data.stTE.sort_values()
-# print(c)
+data = pd.read_csv('Book3.csv')
+print(data)
+print(data.city.value_counts())
+c = data.stTE.sort_values()
+print(c)
 # //////////// index_sort
 data = pd.read_csv('Book3.csv')
 print('original value\n',data)

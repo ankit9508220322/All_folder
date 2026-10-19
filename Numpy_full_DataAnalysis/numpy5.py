@@ -23,12 +23,12 @@ print("lopeing case \n",B3[1,0,1])
 # #  silicing
 B1 = np.arange(12)
 B3 = np.arange(8).reshape(2,2,2)
-print(B1)
-print(B1[2:5])
+print('slicing\n',B1)
+print('slicing2\n',B1[2:5])
 
 # ///////////////////////////////
 B2 = np.arange(12).reshape(4,3)
-print(B2)
+print("original array\n",B2)
 print('this is first row \n',B2[0])
 print('this is second row \n',B2[1])
 print('this is third row \n',B2[2])

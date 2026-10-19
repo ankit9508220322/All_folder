@@ -25,9 +25,9 @@ data2 = pd.read_csv('pandas_practice.csv')
 print("print top 4 sailary\n",data2.head())
 print("chose the choice \n",data2.age.head(3))
 # /////////////////// tell button 5  valu show
-# data2 = pd.read_csv('pandas_practice.csv')
-# print(data2.tail())
-# print(data2.tail(3))
+data2 = pd.read_csv('pandas_practice.csv')
+print(data2.tail())
+print(data2.tail(3))
 
 # ////////////////////// use sample randome find one value 
 data2 = pd.read_csv('pandas_practice.csv')

@@ -41,7 +41,7 @@ Add2 = np.vstack((num1,num2))
 print(Add2)
 
 # /////////////////////////////////////////
-# breack te array any part (splitting)method (1)horizontal splitting and vertial splitting
+# breack the array any part (splitting)method (1)horizontal splitting and vertial splitting
 
 num1 = np.arange(12).reshape(3,4)
 Add3 = np.hsplit(num1,2)

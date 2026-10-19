@@ -13,7 +13,7 @@ print("mode value sadbe jada bar jo aaya hai\n ",data.age.mode())
 print("sabse jada age \n",data.age.mode())
 print("max number \n",data.age.max())
 print("min number \n",data.age.min())
-print("describe number provide summery mathimatcal  \n",data.age.describe())
+print("describe number provide summery mathematical  \n",data.age.describe())
 
 # ////////////////////////////////////////////////
 data = pd.read_csv('Book3.csv')

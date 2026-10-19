@@ -64,19 +64,20 @@ c = np.array([1,2,3,4,3,2,1,5,6,7,5,6,8])
 print(np.flip(c))
 # //////////////////////////////////
 # np.put() change the value in array
-c = np.array([1,2,3,4,3,2,1,0,5,6,7,5,6,8])
-b = np.put(c,[0,33],[6,555])
-print(b)
+# c = np.array([1,2,3,4,3,2,1,0,5,6,7,5,6,8])
+# b = np.put(c,[0,33],[6,555])
+# print(b)
 # //////////////////////////////////////
 # np.delete(c,index number) delet the sub array 
+print('last line start\n')
 c = np.array([1,2,3,4,390,2,1,5,6,7,5,6,8])
 A = np.delete(c,4)
 print(A)
 #  //////////////////////////////////////// Function
-m = np.array([1,2,3,4,5,6])
+m = np.array([1,2,3,4,5,78,6])
 n = np.array([7,6,5,4,3,2])
 total = np.union1d(m,n)
-print(total)
+print("total of value m n\n",total)
 print(np.intersect1d(m,n))
 print(np.setdiff1d(m,n))  #m me ho but n me nahi ho
 print(np.setxor1d(m,n))

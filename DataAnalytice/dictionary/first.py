@@ -70,7 +70,7 @@ num2 = {'name':'abc','age':'22'}
 for i in num2:
     print(num2[i])
 # //////////////////////////////////////////////
-# function discenoray
+# function dictionaryD
 student={
     'name':"vikash",
     'collage':"kochas",

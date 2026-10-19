@@ -1,5 +1,10 @@
-# acces the tuple 
+# access the tuple 
 # tuple is not changble inmuitable 
+# using Type Conversion
+#  create Tuple using Tuple Syntex
+# You Can Convert Data in Tuple Using Tuple Key 
+a1 = (1,2,3,4,5)
+print(type(a1))
 t1 = ('ankit','mohit',True,22,11)
 print(t1)
 print(t1[1])
@@ -15,7 +20,7 @@ print(t2)
 del t2
 print(t2)
 # //////////////////////////////////////////////
-# operation in tuple
+#  4 operation in tuple
 t1 = (1,2,3,4,5,6,7,8)
 t2 = (6,5,4,3,2,1)
 # Addition 
@@ -29,6 +34,7 @@ for i in t1:
     print(i)
 # //////////////////////////////////////
 # function in tuple
+# len/sum/min/max/count/sorted/index
 
 t1 = (9,4,22,0,2,3,4,5,6,7,)
 print(len(t1))
@@ -38,6 +44,7 @@ print(max(t1))
 print(sorted(t1))
 print(t1.count(6))
 print(t1.index(3))
+
 # ////////////////////////
 a,b,*other = (11,2,3,245,5,6,7,8)
 print(a,b)
